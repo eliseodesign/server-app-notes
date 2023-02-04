@@ -1,0 +1,25 @@
+### GET All
+GET http://localhost:3020/api/notes
+
+### ID
+GET http://localhost:3020/api/notes/2
+
+### DELETE
+DELETE http://localhost:3020/api/notes/1
+
+### POST
+POST  http://localhost:3020/api/notes
+Content-Type: application/json
+
+{
+    "content":"holi",
+    "title":"Nota default 2"
+}
+
+### PUT
+PUT  http://localhost:3020/api/notes/2
+Content-Type: application/json
+
+{
+    "important":false
+}
